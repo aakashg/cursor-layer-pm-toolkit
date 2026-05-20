@@ -1,6 +1,6 @@
 # Cursor Layer PM Toolkit
 
-The companion repo for [Is the Chatbox the Wrong Interface for AI?](https://news.aakashg.com) by Aakash Gupta.
+The companion repo for [Is the Chatbox the Wrong Interface for AI?](https://www.news.aakashg.com/p/cursor-ai) by Aakash Gupta.
 
 Google and Farza shipped the same idea the same week: AI that lives at the cursor instead of in a chatbox. This toolkit helps you find where your product needs cursor-layer thinking and prototype it.
 
