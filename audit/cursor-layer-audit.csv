@@ -1,0 +1,47 @@
+## TAB 1: CONTEXT SWITCH MAP
+## Where do users leave your product to get a quick answer somewhere else?
+## Fill one row per exit point. Be specific about the destination.
+
+Exit Point,Destination App,Frequency (per user per week),Time Cost (minutes per switch),Could Cursor-Layer Solve?,Priority (High/Med/Low),Notes
+"Example: User checks competitor pricing","Chrome tab to competitor site",3,5,Yes,High,"Users leave mid-workflow to compare"
+"Example: User asks AI to explain a chart","Claude/ChatGPT in separate tab",8,2,Yes,High,"Describe-then-switch loop"
+"Example: User searches Slack for a decision","Slack search",5,4,Yes,Medium,"Context from last quarter"
+"","","","","","",""
+"","","","","","",""
+"","","","","","",""
+"","","","","","",""
+"","","","","","",""
+"","","","","","",""
+"","","","","","",""
+
+## TAB 2: OVERHEAD INVENTORY
+## What is the user currently managing that your system could absorb?
+## One row per overhead item. These are the things users configure, select, or remember.
+
+Overhead Item,Category,How Often Users Deal With It,User Time Per Instance,System Could Handle?,Removal Difficulty (Easy/Med/Hard),Notes
+"Example: Picking which AI model to use",Model Selection,Every session,30 seconds,Yes,Easy,"Default to best model for task type"
+"Example: Remembering which Slack channel has the decision",Context Memory,Daily,3 minutes,Yes,Medium,"System should search on behalf"
+"Example: Naming and organizing chat threads",Thread Management,Every session,20 seconds,Yes,Easy,"Auto-name from content"
+"Example: Selecting the right agent or tool",Agent Selection,Every session,15 seconds,Yes,Medium,"Route by intent automatically"
+"","","","","","",""
+"","","","","","",""
+"","","","","","",""
+"","","","","","",""
+"","","","","","",""
+"","","","","","",""
+
+## TAB 3: EIGHT-SECOND OPPORTUNITY LOG
+## Where could a micro-interaction (under 10 seconds) replace a multi-minute workflow?
+## Track the moments users need a quick answer and currently pay a high time cost.
+
+Micro-Interaction Need,Current Workflow (steps),Current Time Cost,Eight-Second Version,Frequency (per user per day),Value If Solved,Notes
+"Example: What does this metric mean?","Leave dashboard > open docs > search > read > return",3 minutes,"Hover metric, ask out loud, get answer",5,High,"Users stop checking metrics they don't understand"
+"Example: Is this config correct?","Screenshot > paste in chat > describe > wait > read",2 minutes,"Point at config, ask 'is this right?'",3,High,"Blocks deployment"
+"Example: What did we decide about X?","Open Slack > search > scroll > find thread > read",4 minutes,"Ask 'what did we decide about X?' in context",2,Medium,"Decision memory"
+"","","","","","",""
+"","","","","","",""
+"","","","","","",""
+"","","","","","",""
+"","","","","","",""
+"","","","","","",""
+"","","","","","",""
